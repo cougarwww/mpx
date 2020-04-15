@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>扩展mpx</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/mpx/new/favicon.ico">
+    
+    <link rel="preload" href="/mpx/new/assets/css/0.styles.1552acbf.css" as="style"><link rel="preload" href="/mpx/new/assets/js/app.e2810a86.js" as="script"><link rel="preload" href="/mpx/new/assets/js/2.53062a66.js" as="script"><link rel="preload" href="/mpx/new/assets/js/16.e42b9080.js" as="script"><link rel="prefetch" href="/mpx/new/assets/js/10.2f1658fd.js"><link rel="prefetch" href="/mpx/new/assets/js/11.7b6cea83.js"><link rel="prefetch" href="/mpx/new/assets/js/12.d571349e.js"><link rel="prefetch" href="/mpx/new/assets/js/13.2cec5760.js"><link rel="prefetch" href="/mpx/new/assets/js/14.d8afb61d.js"><link rel="prefetch" href="/mpx/new/assets/js/15.19a98214.js"><link rel="prefetch" href="/mpx/new/assets/js/17.994c3972.js"><link rel="prefetch" href="/mpx/new/assets/js/18.13e6e499.js"><link rel="prefetch" href="/mpx/new/assets/js/19.2d3e8f42.js"><link rel="prefetch" href="/mpx/new/assets/js/20.9b4bb824.js"><link rel="prefetch" href="/mpx/new/assets/js/21.68339dc6.js"><link rel="prefetch" href="/mpx/new/assets/js/22.ef7065c0.js"><link rel="prefetch" href="/mpx/new/assets/js/23.f0f2d62d.js"><link rel="prefetch" href="/mpx/new/assets/js/24.382c214b.js"><link rel="prefetch" href="/mpx/new/assets/js/25.09d3817f.js"><link rel="prefetch" href="/mpx/new/assets/js/26.bafcb79d.js"><link rel="prefetch" href="/mpx/new/assets/js/27.0fdf5fa1.js"><link rel="prefetch" href="/mpx/new/assets/js/28.63313e02.js"><link rel="prefetch" href="/mpx/new/assets/js/29.f9b8377e.js"><link rel="prefetch" href="/mpx/new/assets/js/3.d242d6eb.js"><link rel="prefetch" href="/mpx/new/assets/js/30.07f3aa81.js"><link rel="prefetch" href="/mpx/new/assets/js/31.62d70ee2.js"><link rel="prefetch" href="/mpx/new/assets/js/32.afdb669f.js"><link rel="prefetch" href="/mpx/new/assets/js/33.605d56a1.js"><link rel="prefetch" href="/mpx/new/assets/js/34.0c83c13a.js"><link rel="prefetch" href="/mpx/new/assets/js/35.8b756407.js"><link rel="prefetch" href="/mpx/new/assets/js/36.715ee449.js"><link rel="prefetch" href="/mpx/new/assets/js/37.72c0a601.js"><link rel="prefetch" href="/mpx/new/assets/js/38.a6f7793d.js"><link rel="prefetch" href="/mpx/new/assets/js/39.10866844.js"><link rel="prefetch" href="/mpx/new/assets/js/4.27fdc03f.js"><link rel="prefetch" href="/mpx/new/assets/js/40.54a5c246.js"><link rel="prefetch" href="/mpx/new/assets/js/41.a72f4a58.js"><link rel="prefetch" href="/mpx/new/assets/js/42.8cd1314a.js"><link rel="prefetch" href="/mpx/new/assets/js/43.3845d528.js"><link rel="prefetch" href="/mpx/new/assets/js/44.26d1a689.js"><link rel="prefetch" href="/mpx/new/assets/js/45.a547e3c1.js"><link rel="prefetch" href="/mpx/new/assets/js/46.55c1a216.js"><link rel="prefetch" href="/mpx/new/assets/js/47.d2cee1f4.js"><link rel="prefetch" href="/mpx/new/assets/js/48.7db2165c.js"><link rel="prefetch" href="/mpx/new/assets/js/49.a0127efd.js"><link rel="prefetch" href="/mpx/new/assets/js/5.16344412.js"><link rel="prefetch" href="/mpx/new/assets/js/50.c4666c27.js"><link rel="prefetch" href="/mpx/new/assets/js/51.b98a9927.js"><link rel="prefetch" href="/mpx/new/assets/js/52.a3814c13.js"><link rel="prefetch" href="/mpx/new/assets/js/53.67aec296.js"><link rel="prefetch" href="/mpx/new/assets/js/54.fe8461cd.js"><link rel="prefetch" href="/mpx/new/assets/js/55.38b95a34.js"><link rel="prefetch" href="/mpx/new/assets/js/56.847e6158.js"><link rel="prefetch" href="/mpx/new/assets/js/57.561945e9.js"><link rel="prefetch" href="/mpx/new/assets/js/58.4caac8ec.js"><link rel="prefetch" href="/mpx/new/assets/js/59.3c5c9a76.js"><link rel="prefetch" href="/mpx/new/assets/js/6.2d45864e.js"><link rel="prefetch" href="/mpx/new/assets/js/60.9c6f85b6.js"><link rel="prefetch" href="/mpx/new/assets/js/61.a95b500a.js"><link rel="prefetch" href="/mpx/new/assets/js/62.55e56f65.js"><link rel="prefetch" href="/mpx/new/assets/js/63.e13335f1.js"><link rel="prefetch" href="/mpx/new/assets/js/7.3e55699a.js"><link rel="prefetch" href="/mpx/new/assets/js/8.a69345d6.js"><link rel="prefetch" href="/mpx/new/assets/js/9.0ba39094.js">
+    <link rel="stylesheet" href="/mpx/new/assets/css/0.styles.1552acbf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/mpx/new/" class="home-link router-link-active"><img src="/mpx/new/logo.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/mpx/new/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/mpx/new/api/intro.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/mpx/new/extends/intro.html" class="nav-link router-link-exact-active router-link-active">
+  拓展
+</a></div><div class="nav-item"><a href="/mpx/new/version/" class="nav-link">
+  2.0迁移
+</a></div><div class="nav-item"><a href="/mpx/new/articles/" class="nav-link">
+  相关文章
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/mpx/new/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="/mpx/new/api/intro.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/mpx/new/extends/intro.html" class="nav-link router-link-exact-active router-link-active">
+  拓展
+</a></div><div class="nav-item"><a href="/mpx/new/version/" class="nav-link">
+  2.0迁移
+</a></div><div class="nav-item"><a href="/mpx/new/articles/" class="nav-link">
+  相关文章
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/mpx/new/extends/intro.html" class="active sidebar-link">扩展mpx</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#目前已有插件" class="sidebar-link">目前已有插件</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#开发插件" class="sidebar-link">开发插件</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#fetch" class="sidebar-link">Fetch</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#api-proxy" class="sidebar-link">API-PROXY</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#usage" class="sidebar-link">Usage</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#options" class="sidebar-link">Options</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#example" class="sidebar-link">example</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#mock" class="sidebar-link">Mock</a></li><li class="sidebar-sub-header"><a href="/mpx/new/extends/intro.html#webview-bridge" class="sidebar-link">webview-bridge</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="扩展mpx"><a href="#扩展mpx" class="header-anchor">#</a> 扩展mpx</h1> <h2 id="目前已有插件"><a href="#目前已有插件" class="header-anchor">#</a> 目前已有插件</h2> <ul><li><p>网络请求库fetch: @mpxjs/fetch <a href="#fetch">详细介绍</a> <a href="https://github.com/didi/mpx/tree/master/packages/fetch" target="_blank" rel="noopener noreferrer">源码地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li> <li><p><s>小程序api promisify：@mpxjs/promisify</s> (已废弃，推荐使用新的<a href="#%E4%BD%BF%E7%94%A8promise%E5%BD%A2%E5%BC%8F">api-proxy</a>)</p></li> <li><p>小程序API转换及promisify：@mpxjs/api-proxy <a href="#api-proxy">详细介绍</a> <a href="https://github.com/didi/mpx/tree/master/packages/api-proxy" target="_blank" rel="noopener noreferrer">源码地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li> <li><p>mock数据：@mpxjs/mock <a href="#mock">详细介绍</a> <a href="https://github.com/didi/mpx/tree/master/packages/mock" target="_blank" rel="noopener noreferrer">源码地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li> <li><p>小程序中的webview的API抹平：webview-bridge <a href="#webviewbridge">详细介绍</a> <a href="https://github.com/didi/mpx/tree/master/packages/webview-bridge" target="_blank" rel="noopener noreferrer">源码地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></li></ul> <h2 id="开发插件"><a href="#开发插件" class="header-anchor">#</a> 开发插件</h2> <p>mpx支持使用mpx.use使用插件来进行扩展。插件本身需要提供一个install方法或本身是一个function，该函数接收一个proxyMPX。插件将采用直接在proxyMPX挂载新api属性或在prototype上挂属性。需要注意的是，一定要在app创建之前进行mpx.use</p> <h3 id="基础例子"><a href="#基础例子" class="header-anchor">#</a> 基础例子</h3> <p>扩展: test.js</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">install</span><span class="token punctuation">(</span><span class="token parameter">proxyMPX</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  proxyMPX<span class="token punctuation">.</span><span class="token function-variable function">newApi</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'is new api'</span><span class="token punctuation">)</span>
+  proxyMPX
+    <span class="token punctuation">.</span><span class="token function">mixin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      <span class="token function">onLaunch</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'app onLaunch'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token string">'app'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">mixin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      <span class="token function">onShow</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'page onShow'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token string">'page'</span><span class="token punctuation">)</span> <span class="token comment">// proxyMPX.injectMixins === proxyMPX.mixin</span>
+
+    <span class="token comment">//  注意：proxyMPX.prototype上挂载的属性都将挂载到组件实例（page实例、app实例上，可以直接通过this访问）, 可以看mixin中的case</span>
+    proxyMPX<span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">testHello</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在app.js内使用插件</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> mpx <span class="token keyword">from</span> <span class="token string">'@mpxjs/core'</span>
+<span class="token keyword">import</span> test <span class="token keyword">from</span> <span class="token string">'./test'</span>
+mpx<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>test<span class="token punctuation">)</span>
+mpx<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token function">onLaunch</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    mpx<span class="token punctuation">.</span><span class="token function">newApi</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// out put: &quot;is new api&quot;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">testHello</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// output: 'hello'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="fetch"><a href="#fetch" class="header-anchor">#</a> Fetch</h2> <p>小程序request存在不限域名的并发限制，因此封装一个fetch来处理这种缺陷，能支持请求优先级，同时fetch还支持拦截器，请求取消等等</p> <h3 id="使用说明"><a href="#使用说明" class="header-anchor">#</a> 使用说明</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> mpx <span class="token keyword">from</span> <span class="token string">'@mpxjs/core'</span>
+<span class="token keyword">import</span> mpxFetch <span class="token keyword">from</span> <span class="token string">'@mpxjs/fetch'</span>
+mpx<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>mpxFetch<span class="token punctuation">)</span>
+<span class="token comment">// 第一种访问形式</span>
+mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	url<span class="token operator">:</span> <span class="token string">'http://xxx.com'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">res</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>data<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+mpx<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	<span class="token function">onLaunch</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token comment">// 第二种访问形式</span>
+		<span class="token keyword">this</span><span class="token punctuation">.</span>$xfetch<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>url<span class="token operator">:</span> <span class="token string">'http://test.com'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="导入api说明"><a href="#导入api说明" class="header-anchor">#</a> 导入api说明</h3> <p>mpx-fetch提供了一个实例 <strong>xfetch</strong> ，该实例包含以下api</p> <ul><li>fetch(config, priority)， 正常的promisify风格的请求方法, priority表示请求优先级（normal，low），默认为normal</li> <li>addLowPriorityWhiteList(rules)， 按域名规则设置低优先级请求的白名单，接收一个参数，可以是字符串，也可以是正则表达式，也可以是数组 (如果fetch传入了第二个参数，那么无视这个白名单)</li> <li>CancelToken，实例属性，用于创建一个取消请求的凭证。</li> <li>create()， 用于创建一个新的mpx-fetch实例</li> <li>interceptors，实例属性，用于添加拦截器，包含两个属性，request &amp; response</li></ul> <h3 id="请求优先级"><a href="#请求优先级" class="header-anchor">#</a> 请求优先级</h3> <div class="language-js extra-class"><pre class="language-js"><code>mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	url<span class="token operator">:</span> <span class="token string">'http://xxx.com'</span><span class="token punctuation">,</span>
+	data<span class="token operator">:</span> <span class="token punctuation">{</span>
+		name<span class="token operator">:</span> <span class="token string">'test'</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token string">'low'</span><span class="token punctuation">)</span>
+
+<span class="token comment">// or addSignWhiteList</span>
+mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span><span class="token function">addLowPriorityWhiteList</span><span class="token punctuation">(</span><span class="token string">'http://xxx.com'</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="请求拦截器"><a href="#请求拦截器" class="header-anchor">#</a> 请求拦截器</h3> <div class="language-js extra-class"><pre class="language-js"><code>mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>request<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">config</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>config<span class="token punctuation">)</span>
+	<span class="token comment">// 也可以返回promise</span>
+	<span class="token keyword">return</span> config
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span>interceptors<span class="token punctuation">.</span>response<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+	<span class="token comment">// 也可以返回promise</span>
+	<span class="token keyword">return</span> res
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="请求中断"><a href="#请求中断" class="header-anchor">#</a> 请求中断</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> cancelToken <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span>CancelToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	url<span class="token operator">:</span> <span class="token string">'http://xxx.com'</span><span class="token punctuation">,</span>
+	data<span class="token operator">:</span> <span class="token punctuation">{</span>
+		name<span class="token operator">:</span> <span class="token string">'test'</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	cancelToken<span class="token operator">:</span> cancelToken<span class="token punctuation">.</span>token
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+cancelToken<span class="token punctuation">.</span><span class="token function">exec</span><span class="token punctuation">(</span><span class="token string">'手动取消请求'</span><span class="token punctuation">)</span> <span class="token comment">// 执行后请求中断，返回abort fail</span>
+</code></pre></div><h3 id="支持-emulatejson"><a href="#支持-emulatejson" class="header-anchor">#</a> 支持 emulateJSON</h3> <div class="language-js extra-class"><pre class="language-js"><code>mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	url<span class="token operator">:</span> <span class="token string">'http://xxx.com'</span><span class="token punctuation">,</span>
+	method<span class="token operator">:</span> <span class="token string">'POST'</span><span class="token punctuation">,</span>
+	data<span class="token operator">:</span> <span class="token punctuation">{</span>
+		name<span class="token operator">:</span> <span class="token string">'test'</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	emulateJSON<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token comment">// 等价于header = {'content-type': 'application/x-www-form-urlencoded'}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="支持-params"><a href="#支持-params" class="header-anchor">#</a> 支持 params</h3> <div class="language-js extra-class"><pre class="language-js"><code>mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	url<span class="token operator">:</span> <span class="token string">'http://xxx.com'</span><span class="token punctuation">,</span>
+	params<span class="token operator">:</span> <span class="token punctuation">{</span>
+		name<span class="token operator">:</span> <span class="token string">'test'</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+mpx<span class="token punctuation">.</span>xfetch<span class="token punctuation">.</span><span class="token function">fetch</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+	url<span class="token operator">:</span> <span class="token string">'http://xxx.com'</span><span class="token punctuation">,</span>
+	method<span class="token operator">:</span> <span class="token string">'POST'</span><span class="token punctuation">,</span>
+	params<span class="token operator">:</span> <span class="token punctuation">{</span>
+		age<span class="token operator">:</span> <span class="token number">10</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	data<span class="token operator">:</span> <span class="token punctuation">{</span>
+		name<span class="token operator">:</span> <span class="token string">'test'</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	emulateJSON<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token comment">// 等价于header = {'content-type': 'application/x-www-form-urlencoded'}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="自动过滤值为undefined和null的属性，其中null未转换成空字符串"><a href="#自动过滤值为undefined和null的属性，其中null未转换成空字符串" class="header-anchor">#</a> 自动过滤值为undefined和null的属性，其中null未转换成空字符串</h3> <h2 id="api-proxy"><a href="#api-proxy" class="header-anchor">#</a> API-PROXY</h2> <blockquote><p>convert API at each end 各个平台之间 api 进行转换</p></blockquote> <h2 id="usage"><a href="#usage" class="header-anchor">#</a> Usage</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 使用 mpx 生态</span>
+
+<span class="token keyword">import</span> mpx <span class="token keyword">from</span> <span class="token string">'@mpxjs/core'</span>
+<span class="token keyword">import</span> apiProxy <span class="token keyword">from</span> <span class="token string">'@mpxjs/api-proxy'</span>
+
+mpx<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>apiProxy<span class="token punctuation">,</span> options<span class="token punctuation">)</span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 单独使用</span>
+<span class="token keyword">import</span> apiProxy <span class="token keyword">from</span> <span class="token string">'@mpxjs/api-proxy'</span>
+
+<span class="token function">apiProxy</span><span class="token punctuation">(</span>target<span class="token punctuation">,</span> options<span class="token punctuation">)</span> <span class="token comment">// target 为要抹平的对象</span>
+</code></pre></div><h2 id="options"><a href="#options" class="header-anchor">#</a> Options</h2> <table><thead><tr><th>参数名称</th> <th>类型</th> <th>含义</th> <th>是否必填</th> <th>默认值</th> <th>备注</th></tr></thead> <tbody><tr><td>platform</td> <td>Object</td> <td>各平台之间的转换</td> <td>否</td> <td>{ from:'', to:'' }</td> <td>使用 mpx 脚手架配置会自动进行转换，无需配置</td></tr> <tr><td>exclude</td> <td>Array(String)</td> <td>跨平台时不需要转换的 api</td> <td>-</td> <td></td> <td></td></tr> <tr><td>usePromise</td> <td>Boolean</td> <td>是否将 api 转化为 promise 格式使用</td> <td>否</td> <td>false</td> <td>-</td></tr> <tr><td>whiteList</td> <td>Array(String)</td> <td>强行转化为 promise 格式的 api</td> <td>否</td> <td>[]</td> <td>需要 usePromise 设为 true</td></tr></tbody></table> <h2 id="example"><a href="#example" class="header-anchor">#</a> example</h2> <h4 id="普通形式"><a href="#普通形式" class="header-anchor">#</a> 普通形式</h4> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> mpx <span class="token keyword">from</span> <span class="token string">'@mpxjs/core'</span>
+<span class="token keyword">import</span> apiProxy <span class="token keyword">from</span> <span class="token string">'@mpxjs/api-proxy'</span>
+
+mpx<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>apiProxy<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  exclude<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'showToast'</span><span class="token punctuation">]</span> <span class="token comment">// showToast 将不会被转换为目标平台</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+mpx<span class="token punctuation">.</span><span class="token function">showModal</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  title<span class="token operator">:</span> <span class="token string">'标题'</span><span class="token punctuation">,</span>
+  content<span class="token operator">:</span> <span class="token string">'这是一个弹窗'</span><span class="token punctuation">,</span>
+  <span class="token function">success</span> <span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>res<span class="token punctuation">.</span>cancel<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'用户点击取消'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h4 id="使用promise形式"><a href="#使用promise形式" class="header-anchor">#</a> 使用promise形式</h4> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> mpx <span class="token keyword">from</span> <span class="token string">'@mpxjs/core'</span>
+<span class="token keyword">import</span> apiProxy <span class="token keyword">from</span> <span class="token string">'@mpxjs/api-proxy'</span>
+
+mpx<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>apiProxy<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  usePromise<span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+mpx<span class="token punctuation">.</span><span class="token function">showActionSheet</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  itemList<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'A'</span><span class="token punctuation">,</span> <span class="token string">'B'</span><span class="token punctuation">,</span> <span class="token string">'C'</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">res</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">.</span>tapIndex<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token parameter">err</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="mock"><a href="#mock" class="header-anchor">#</a> Mock</h2> <p>mock数据生成规则同<a href="https://github.com/nuysoft/Mock/wiki" target="_blank" rel="noopener noreferrer">mockjs<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h3 id="使用说明-2"><a href="#使用说明-2" class="header-anchor">#</a> 使用说明</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> mock <span class="token keyword">from</span> <span class="token string">'@mpxjs/mock'</span>
+<span class="token comment">// rule 为字符串或正则表达式</span>
+<span class="token function">mock</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">{</span>
+  url<span class="token operator">:</span> <span class="token string">'http://api.example.com'</span><span class="token punctuation">,</span>
+  rule<span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token string">'list|1-10'</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+			<span class="token string">'id|+1'</span><span class="token operator">:</span> <span class="token number">1</span>
+		<span class="token punctuation">}</span><span class="token punctuation">]</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="webview-bridge"><a href="#webview-bridge" class="header-anchor">#</a> webview-bridge</h2> <p>Mpx支持小程序跨平台后，多个平台的小程序里都有webview组件，webview打开的页面和小程序可以通过API来通信以及调用一些小程序能力，但是各方webview提供的API是不一样的。</p> <p>比如微信是用 wx.miniProgram.navigateTo 来跳转到别的小程序页面，而支付宝里是 my.navigateTo ，那么我们开发H5时候为了让H5能适应各家小程序平台就需要写多份对应逻辑。</p> <p>为解决这个问题，Mpx提供了用于运行在小程序的webview里的H5抹平平台差异的bridge库：@mpxjs/webview-bridge</p> <p>使用方式很简单，不过注意这个库是给H5用的，不是给小程序用的。在H5项目中引入。</p> <p><a href="https://github.com/didi/mpx/tree/master/examples/mpx-webview" target="_blank" rel="noopener noreferrer">使用示例<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>支持script标签引入和npm引入，标签引入的话，全局实例是mpx（npm模块使用下也鼓励import mpx from '@mpxjs/webview-birdge'），使用就例如 mpx.navigateTo ，能保持整个项目风格完全一致。</p> <p>提供的API如下：<code>navigateTo, navigateBack, switchTab, reLaunch, redirectTo, getEnv, postMessage, getLoadError</code></p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/mpx/new/assets/js/app.e2810a86.js" defer></script><script src="/mpx/new/assets/js/2.53062a66.js" defer></script><script src="/mpx/new/assets/js/16.e42b9080.js" defer></script>
+  </body>
+</html>

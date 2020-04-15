@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>style增强特性</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/mpx/new/favicon.ico">
+    
+    <link rel="preload" href="/mpx/new/assets/css/0.styles.1552acbf.css" as="style"><link rel="preload" href="/mpx/new/assets/js/app.e2810a86.js" as="script"><link rel="preload" href="/mpx/new/assets/js/2.53062a66.js" as="script"><link rel="preload" href="/mpx/new/assets/js/49.a0127efd.js" as="script"><link rel="prefetch" href="/mpx/new/assets/js/10.2f1658fd.js"><link rel="prefetch" href="/mpx/new/assets/js/11.7b6cea83.js"><link rel="prefetch" href="/mpx/new/assets/js/12.d571349e.js"><link rel="prefetch" href="/mpx/new/assets/js/13.2cec5760.js"><link rel="prefetch" href="/mpx/new/assets/js/14.d8afb61d.js"><link rel="prefetch" href="/mpx/new/assets/js/15.19a98214.js"><link rel="prefetch" href="/mpx/new/assets/js/16.e42b9080.js"><link rel="prefetch" href="/mpx/new/assets/js/17.994c3972.js"><link rel="prefetch" href="/mpx/new/assets/js/18.13e6e499.js"><link rel="prefetch" href="/mpx/new/assets/js/19.2d3e8f42.js"><link rel="prefetch" href="/mpx/new/assets/js/20.9b4bb824.js"><link rel="prefetch" href="/mpx/new/assets/js/21.68339dc6.js"><link rel="prefetch" href="/mpx/new/assets/js/22.ef7065c0.js"><link rel="prefetch" href="/mpx/new/assets/js/23.f0f2d62d.js"><link rel="prefetch" href="/mpx/new/assets/js/24.382c214b.js"><link rel="prefetch" href="/mpx/new/assets/js/25.09d3817f.js"><link rel="prefetch" href="/mpx/new/assets/js/26.bafcb79d.js"><link rel="prefetch" href="/mpx/new/assets/js/27.0fdf5fa1.js"><link rel="prefetch" href="/mpx/new/assets/js/28.63313e02.js"><link rel="prefetch" href="/mpx/new/assets/js/29.f9b8377e.js"><link rel="prefetch" href="/mpx/new/assets/js/3.d242d6eb.js"><link rel="prefetch" href="/mpx/new/assets/js/30.07f3aa81.js"><link rel="prefetch" href="/mpx/new/assets/js/31.62d70ee2.js"><link rel="prefetch" href="/mpx/new/assets/js/32.afdb669f.js"><link rel="prefetch" href="/mpx/new/assets/js/33.605d56a1.js"><link rel="prefetch" href="/mpx/new/assets/js/34.0c83c13a.js"><link rel="prefetch" href="/mpx/new/assets/js/35.8b756407.js"><link rel="prefetch" href="/mpx/new/assets/js/36.715ee449.js"><link rel="prefetch" href="/mpx/new/assets/js/37.72c0a601.js"><link rel="prefetch" href="/mpx/new/assets/js/38.a6f7793d.js"><link rel="prefetch" href="/mpx/new/assets/js/39.10866844.js"><link rel="prefetch" href="/mpx/new/assets/js/4.27fdc03f.js"><link rel="prefetch" href="/mpx/new/assets/js/40.54a5c246.js"><link rel="prefetch" href="/mpx/new/assets/js/41.a72f4a58.js"><link rel="prefetch" href="/mpx/new/assets/js/42.8cd1314a.js"><link rel="prefetch" href="/mpx/new/assets/js/43.3845d528.js"><link rel="prefetch" href="/mpx/new/assets/js/44.26d1a689.js"><link rel="prefetch" href="/mpx/new/assets/js/45.a547e3c1.js"><link rel="prefetch" href="/mpx/new/assets/js/46.55c1a216.js"><link rel="prefetch" href="/mpx/new/assets/js/47.d2cee1f4.js"><link rel="prefetch" href="/mpx/new/assets/js/48.7db2165c.js"><link rel="prefetch" href="/mpx/new/assets/js/5.16344412.js"><link rel="prefetch" href="/mpx/new/assets/js/50.c4666c27.js"><link rel="prefetch" href="/mpx/new/assets/js/51.b98a9927.js"><link rel="prefetch" href="/mpx/new/assets/js/52.a3814c13.js"><link rel="prefetch" href="/mpx/new/assets/js/53.67aec296.js"><link rel="prefetch" href="/mpx/new/assets/js/54.fe8461cd.js"><link rel="prefetch" href="/mpx/new/assets/js/55.38b95a34.js"><link rel="prefetch" href="/mpx/new/assets/js/56.847e6158.js"><link rel="prefetch" href="/mpx/new/assets/js/57.561945e9.js"><link rel="prefetch" href="/mpx/new/assets/js/58.4caac8ec.js"><link rel="prefetch" href="/mpx/new/assets/js/59.3c5c9a76.js"><link rel="prefetch" href="/mpx/new/assets/js/6.2d45864e.js"><link rel="prefetch" href="/mpx/new/assets/js/60.9c6f85b6.js"><link rel="prefetch" href="/mpx/new/assets/js/61.a95b500a.js"><link rel="prefetch" href="/mpx/new/assets/js/62.55e56f65.js"><link rel="prefetch" href="/mpx/new/assets/js/63.e13335f1.js"><link rel="prefetch" href="/mpx/new/assets/js/7.3e55699a.js"><link rel="prefetch" href="/mpx/new/assets/js/8.a69345d6.js"><link rel="prefetch" href="/mpx/new/assets/js/9.0ba39094.js">
+    <link rel="stylesheet" href="/mpx/new/assets/css/0.styles.1552acbf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/mpx/new/" class="home-link router-link-active"><img src="/mpx/new/logo.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/mpx/new/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/mpx/new/api/intro.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/mpx/new/extends/intro.html" class="nav-link">
+  拓展
+</a></div><div class="nav-item"><a href="/mpx/new/version/" class="nav-link">
+  2.0迁移
+</a></div><div class="nav-item"><a href="/mpx/new/articles/" class="nav-link">
+  相关文章
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/mpx/new/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/mpx/new/api/intro.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/mpx/new/extends/intro.html" class="nav-link">
+  拓展
+</a></div><div class="nav-item"><a href="/mpx/new/version/" class="nav-link">
+  2.0迁移
+</a></div><div class="nav-item"><a href="/mpx/new/articles/" class="nav-link">
+  相关文章
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/mpx/new/guide/start.html" class="sidebar-link">开始</a></li><li><a href="/mpx/new/guide/what-is-single-file.html" class="sidebar-link">单文件</a></li><li><a href="/mpx/new/guide/template-enhance.html" class="sidebar-link">template增强特性</a></li><li><a href="/mpx/new/guide/script-enhance.html" class="sidebar-link">script增强特性</a></li><li><a href="/mpx/new/guide/style-enhance.html" class="active sidebar-link">style增强特性</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/mpx/new/guide/style-enhance.html#css预处理器" class="sidebar-link">css预处理器</a></li><li class="sidebar-sub-header"><a href="/mpx/new/guide/style-enhance.html#样式引用" class="sidebar-link">样式引用</a></li><li class="sidebar-sub-header"><a href="/mpx/new/guide/style-enhance.html#rpx转换" class="sidebar-link">rpx转换</a></li></ul></li><li><a href="/mpx/new/guide/json-enhance.html" class="sidebar-link">JSON增强特性</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>进阶</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/mpx/new/guide/store.html" class="sidebar-link">数据管理</a></li><li><a href="/mpx/new/guide/compilationEnhance.html" class="sidebar-link">构建配置</a></li><li><a href="/mpx/new/guide/platform.html" class="sidebar-link">多平台支持</a></li><li><a href="/mpx/new/guide/ts.html" class="sidebar-link">Typescript支持</a></li><li><a href="/mpx/new/guide/i18n.html" class="sidebar-link">国际化i18n</a></li><li><a href="/mpx/new/guide/progressive.html" class="sidebar-link">渐进接入</a></li><li><a href="/mpx/new/guide/understanding.html" class="sidebar-link">mpx运行机制</a></li><li><a href="/mpx/new/guide/resource.html" class="sidebar-link">图像资源处理</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="style增强特性"><a href="#style增强特性" class="header-anchor">#</a> style增强特性</h1> <h2 id="css预处理器"><a href="#css预处理器" class="header-anchor">#</a> css预处理器</h2> <p><code>mpx</code>支持所有主流的<code>css预编译处理</code>，只需要在<code>&lt;style&gt;</code>的<code>lang</code>中设置使用的预编译语言<code>（stylus/less/sass等）</code>并且安装对应的<code>webpack-loader</code>即可正常使用。</p> <p>示例：</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>container<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>item<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>123<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>text</span><span class="token punctuation">&gt;</span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>stylus<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+.container
+padding 10px
+.item
+    text-align center
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h2 id="样式引用"><a href="#样式引用" class="header-anchor">#</a> 样式引用</h2> <p>两种方式引用：</p> <ul><li>style内使用@import语法引入</li> <li>在style标签上通过src引入</li></ul> <p>前者会被内联打入 组件/页面 对应的wxss文件，后者则是会将src对应的文件收集到wxss文件夹里，再在 组件/页面 对应的wxss文件中通过@import引入。</p> <p>在一个mpx文件中，两者可以同时使用，例如：</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!--src/components/test.mpx--&gt;</span>
+<span class="token comment">&lt;!--省略template\script\json部分--&gt;</span>
+
+<span class="token comment">&lt;!--这个部分的样式会被收集进wxss文件夹再被test.wxss引入--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>../common/index.css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+<span class="token comment">/*这个部分的代码会被内联打入test.wxss*/</span>
+<span class="token selector">.test</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!--也可以使用样式预处理语言比如sass、stylus、less等等--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>scss<span class="token punctuation">&quot;</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>../style/test.scss<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>建议对于多个 页面/组件 公用的样式，使用src形式引入，避免一份样式被内联打成多份。</strong></p> <h2 id="rpx转换"><a href="#rpx转换" class="header-anchor">#</a> rpx转换</h2> <p>为了处理某些ide中不支持<code>rpx</code>单位的问题，<code>mpx</code>提供了一个将px转换为rpx的功能。</p> <p>支持通过注释控制行级、块级的是否转换，支持局部使用，支持不同依赖分别使用不用的转换规则等灵活的能力。</p> <p>通过transRpx参数来进行配置，配置项是这样 <strong>一个对象</strong> ，也可以是 <strong>多个这样的对象组成的数组</strong> 。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> transRpx <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">'all'</span><span class="token punctuation">,</span> <span class="token comment">// 可选值有none/only/all 分别是不启用，只对注释内容启用，只不对注释内容启用</span>
+  comment<span class="token operator">:</span> <span class="token string">'use px'</span><span class="token punctuation">,</span> <span class="token comment">// rpx注释，建议使用 'use px' / 'use rpx'，当mode为all时默认值为use px，mode为only时默认值为use rpx</span>
+  include<span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// 同webpack的include规则</span>
+  exclude<span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'lib'</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// 同webpack的exclude规则</span>
+  designWidth<span class="token operator">:</span> <span class="token number">750</span> <span class="token comment">// 设计稿宽度，默认值就是750</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>配置在 build.js / webpack.conf.js 中的 MpxWebpackPlugin.loader 的参数中（找已经存在的，勿新加）。关于如何配置详情请查看<a href="/mpx/new/compilationEnhance/#mpxwebpackpluginloader">mpx-loader选项</a></p> <h4 id="应用场景及相应配置"><a href="#应用场景及相应配置" class="header-anchor">#</a> 应用场景及相应配置</h4> <p>接下来我们来看下一些应用场景及如何配置。如果是用脚手架生成的项目，在webpack.conf.js里找到MpxWebpackPlugin.loader，应该已经有预设的transRpx选项，按例修改即可。本处示例中为了代码合规，声明了新变量表示来这个选项，项目中应该直接为option对象的子属性。</p> <p>三种场景分别是 <a href="#%E5%9C%BA%E6%99%AF%E4%B8%80">普通使用，因设计稿是px的二倍/三倍图</a> ， <a href="#%E5%9C%BA%E6%99%AF%E4%BA%8C">只对某些特殊样式转换</a> ， <a href="#%E5%9C%BA%E6%99%AF%E4%B8%89">不同路径分别配置规则</a></p> <h4 id="场景一"><a href="#场景一" class="header-anchor">#</a> 场景一</h4> <p>设计师给的稿是2倍图，分辨率750px。或者更高倍图。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> transRpx <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">'all'</span><span class="token punctuation">,</span>
+  designWidth<span class="token operator">:</span> <span class="token number">750</span> <span class="token comment">// 如果是其他倍，修改此值为设计稿的宽度即可</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="场景二"><a href="#场景二" class="header-anchor">#</a> 场景二</h4> <p>大部分样式都用px下，某些元素期望用rpx。或者反过来。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> transRpx <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">'only'</span><span class="token punctuation">,</span>
+  comment<span class="token operator">:</span> <span class="token string">'use rpx'</span><span class="token punctuation">,</span>
+  designWidth<span class="token operator">:</span> <span class="token number">750</span> <span class="token comment">// 设计稿宽度</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>mpx的rpx注释能帮助你仅为部分类或者部分样式启用rpx转换，细节请看下面附录。</p> <h4 id="场景三"><a href="#场景三" class="header-anchor">#</a> 场景三</h4> <p>使用了第三方组件，它的设计宽度和主项目不一致，期望能设置不同的转换规则</p> <div class="language-js extra-class"><pre class="language-js"><code>  <span class="token punctuation">{</span>
+    test<span class="token operator">:</span> <span class="token regex">/\.mpx$/</span><span class="token punctuation">,</span>
+    use<span class="token operator">:</span> MpxWebpackPlugin<span class="token punctuation">.</span><span class="token function">loader</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      transRpx<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          mode<span class="token operator">:</span> <span class="token string">'only'</span><span class="token punctuation">,</span>
+          designWidth<span class="token operator">:</span> <span class="token number">750</span><span class="token punctuation">,</span>
+          comment<span class="token operator">:</span> <span class="token string">'use rpx'</span><span class="token punctuation">,</span>
+          include<span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          mode<span class="token operator">:</span> <span class="token string">'all'</span><span class="token punctuation">,</span>
+          designWidth<span class="token operator">:</span> <span class="token number">1280</span><span class="token punctuation">,</span> <span class="token comment">// 对iview单独使用一个不同的designWidth</span>
+          include<span class="token operator">:</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'node_modules/iview-weapp'</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><blockquote><p>注意事项：转换规则是不可以对一个文件做多次转换的，会出错，所以一旦被一个规则命中后就不会再次命中另一个规则，include和exclude的编写需要注意先后顺序，就比如上面这个配置，如果第一个规则include的是'/'即整个项目，iview-weapp里的样式就无法命中第二条规则了。</p></blockquote> <h4 id="transrpx附录"><a href="#transrpx附录" class="header-anchor">#</a> transRpx附录</h4> <p>designWidth</p> <p>设计稿宽度，单位为<code>px</code>。默认值为<code>750px</code>。</p> <p><code>mpx</code>会基于小程序标准的屏幕宽度<code>baseWidth 750rpx</code>，与<code>option.designWidth</code>计算出一个转换比例<code>transRatio</code></p> <p>转换比例的计算方式为<code>transRatio = (baseWidth / designWidth)</code>。精度为小数点后2位四舍五入</p> <p>所有生效的<code>rpx注释样式</code>中的px会乘上<code>transRatio</code>得出最终的rpx值</p> <p>例如：</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token comment">/* 转换前：designWidth = 1280 */</span>
+<span class="token selector">.btn</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* 转换后: transRatio = 0.59 */</span>
+<span class="token selector">.btn</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 118rpx<span class="token punctuation">;</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> 59rpx<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><hr> <p>comment: rpx注释样式</p> <p>根据<code>rpx注释</code>的位置，<code>mpx</code>会将<code>一段css规则</code>或者<code>一条css声明</code>视为<code>rpx注释样式</code></p> <p>开发者可以声明一段rpx注释样式，提示编译器是否转换这段css中的px</p> <p>例如：</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token comment">/* use px */</span>
+  <span class="token selector">.not-translate-a</span> <span class="token punctuation">{</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.not-translate-b</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* use px */</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.translate-a</span> <span class="token punctuation">{</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  <span class="token selector">.translate-b</span> <span class="token punctuation">{</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><blockquote><p>第一个注释位于一个<code>选择器</code>前，是一个<code>css规则注释</code>，整个规则都会被视为<code>rpx注释样式</code></p></blockquote> <blockquote><p>第二个注释位于一个<code>css声明</code>前，是一个<code>css声明注释</code>，只有<code>font-size: 100px</code>会被视为<code>rpx注释样式</code></p></blockquote> <blockquote><p><code>transRpx = all</code>模式下，除了这两条rpx注释样式之外，其他都会转rpx</p></blockquote></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/mpx/new/guide/script-enhance.html" class="prev">
+        script增强特性
+      </a></span> <span class="next"><a href="/mpx/new/guide/json-enhance.html">
+        JSON增强特性
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/mpx/new/assets/js/app.e2810a86.js" defer></script><script src="/mpx/new/assets/js/2.53062a66.js" defer></script><script src="/mpx/new/assets/js/49.a0127efd.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>渐进接入</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/mpx/new/favicon.ico">
+    
+    <link rel="preload" href="/mpx/new/assets/css/0.styles.1552acbf.css" as="style"><link rel="preload" href="/mpx/new/assets/js/app.e2810a86.js" as="script"><link rel="preload" href="/mpx/new/assets/js/2.53062a66.js" as="script"><link rel="preload" href="/mpx/new/assets/js/45.a547e3c1.js" as="script"><link rel="prefetch" href="/mpx/new/assets/js/10.2f1658fd.js"><link rel="prefetch" href="/mpx/new/assets/js/11.7b6cea83.js"><link rel="prefetch" href="/mpx/new/assets/js/12.d571349e.js"><link rel="prefetch" href="/mpx/new/assets/js/13.2cec5760.js"><link rel="prefetch" href="/mpx/new/assets/js/14.d8afb61d.js"><link rel="prefetch" href="/mpx/new/assets/js/15.19a98214.js"><link rel="prefetch" href="/mpx/new/assets/js/16.e42b9080.js"><link rel="prefetch" href="/mpx/new/assets/js/17.994c3972.js"><link rel="prefetch" href="/mpx/new/assets/js/18.13e6e499.js"><link rel="prefetch" href="/mpx/new/assets/js/19.2d3e8f42.js"><link rel="prefetch" href="/mpx/new/assets/js/20.9b4bb824.js"><link rel="prefetch" href="/mpx/new/assets/js/21.68339dc6.js"><link rel="prefetch" href="/mpx/new/assets/js/22.ef7065c0.js"><link rel="prefetch" href="/mpx/new/assets/js/23.f0f2d62d.js"><link rel="prefetch" href="/mpx/new/assets/js/24.382c214b.js"><link rel="prefetch" href="/mpx/new/assets/js/25.09d3817f.js"><link rel="prefetch" href="/mpx/new/assets/js/26.bafcb79d.js"><link rel="prefetch" href="/mpx/new/assets/js/27.0fdf5fa1.js"><link rel="prefetch" href="/mpx/new/assets/js/28.63313e02.js"><link rel="prefetch" href="/mpx/new/assets/js/29.f9b8377e.js"><link rel="prefetch" href="/mpx/new/assets/js/3.d242d6eb.js"><link rel="prefetch" href="/mpx/new/assets/js/30.07f3aa81.js"><link rel="prefetch" href="/mpx/new/assets/js/31.62d70ee2.js"><link rel="prefetch" href="/mpx/new/assets/js/32.afdb669f.js"><link rel="prefetch" href="/mpx/new/assets/js/33.605d56a1.js"><link rel="prefetch" href="/mpx/new/assets/js/34.0c83c13a.js"><link rel="prefetch" href="/mpx/new/assets/js/35.8b756407.js"><link rel="prefetch" href="/mpx/new/assets/js/36.715ee449.js"><link rel="prefetch" href="/mpx/new/assets/js/37.72c0a601.js"><link rel="prefetch" href="/mpx/new/assets/js/38.a6f7793d.js"><link rel="prefetch" href="/mpx/new/assets/js/39.10866844.js"><link rel="prefetch" href="/mpx/new/assets/js/4.27fdc03f.js"><link rel="prefetch" href="/mpx/new/assets/js/40.54a5c246.js"><link rel="prefetch" href="/mpx/new/assets/js/41.a72f4a58.js"><link rel="prefetch" href="/mpx/new/assets/js/42.8cd1314a.js"><link rel="prefetch" href="/mpx/new/assets/js/43.3845d528.js"><link rel="prefetch" href="/mpx/new/assets/js/44.26d1a689.js"><link rel="prefetch" href="/mpx/new/assets/js/46.55c1a216.js"><link rel="prefetch" href="/mpx/new/assets/js/47.d2cee1f4.js"><link rel="prefetch" href="/mpx/new/assets/js/48.7db2165c.js"><link rel="prefetch" href="/mpx/new/assets/js/49.a0127efd.js"><link rel="prefetch" href="/mpx/new/assets/js/5.16344412.js"><link rel="prefetch" href="/mpx/new/assets/js/50.c4666c27.js"><link rel="prefetch" href="/mpx/new/assets/js/51.b98a9927.js"><link rel="prefetch" href="/mpx/new/assets/js/52.a3814c13.js"><link rel="prefetch" href="/mpx/new/assets/js/53.67aec296.js"><link rel="prefetch" href="/mpx/new/assets/js/54.fe8461cd.js"><link rel="prefetch" href="/mpx/new/assets/js/55.38b95a34.js"><link rel="prefetch" href="/mpx/new/assets/js/56.847e6158.js"><link rel="prefetch" href="/mpx/new/assets/js/57.561945e9.js"><link rel="prefetch" href="/mpx/new/assets/js/58.4caac8ec.js"><link rel="prefetch" href="/mpx/new/assets/js/59.3c5c9a76.js"><link rel="prefetch" href="/mpx/new/assets/js/6.2d45864e.js"><link rel="prefetch" href="/mpx/new/assets/js/60.9c6f85b6.js"><link rel="prefetch" href="/mpx/new/assets/js/61.a95b500a.js"><link rel="prefetch" href="/mpx/new/assets/js/62.55e56f65.js"><link rel="prefetch" href="/mpx/new/assets/js/63.e13335f1.js"><link rel="prefetch" href="/mpx/new/assets/js/7.3e55699a.js"><link rel="prefetch" href="/mpx/new/assets/js/8.a69345d6.js"><link rel="prefetch" href="/mpx/new/assets/js/9.0ba39094.js">
+    <link rel="stylesheet" href="/mpx/new/assets/css/0.styles.1552acbf.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/mpx/new/" class="home-link router-link-active"><img src="/mpx/new/logo.png" alt="" class="logo"> <!----></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/mpx/new/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/mpx/new/api/intro.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/mpx/new/extends/intro.html" class="nav-link">
+  拓展
+</a></div><div class="nav-item"><a href="/mpx/new/version/" class="nav-link">
+  2.0迁移
+</a></div><div class="nav-item"><a href="/mpx/new/articles/" class="nav-link">
+  相关文章
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/mpx/new/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/mpx/new/api/intro.html" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/mpx/new/extends/intro.html" class="nav-link">
+  拓展
+</a></div><div class="nav-item"><a href="/mpx/new/version/" class="nav-link">
+  2.0迁移
+</a></div><div class="nav-item"><a href="/mpx/new/articles/" class="nav-link">
+  相关文章
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/mpx/new/guide/start.html" class="sidebar-link">开始</a></li><li><a href="/mpx/new/guide/what-is-single-file.html" class="sidebar-link">单文件</a></li><li><a href="/mpx/new/guide/template-enhance.html" class="sidebar-link">template增强特性</a></li><li><a href="/mpx/new/guide/script-enhance.html" class="sidebar-link">script增强特性</a></li><li><a href="/mpx/new/guide/style-enhance.html" class="sidebar-link">style增强特性</a></li><li><a href="/mpx/new/guide/json-enhance.html" class="sidebar-link">JSON增强特性</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>进阶</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/mpx/new/guide/store.html" class="sidebar-link">数据管理</a></li><li><a href="/mpx/new/guide/compilationEnhance.html" class="sidebar-link">构建配置</a></li><li><a href="/mpx/new/guide/platform.html" class="sidebar-link">多平台支持</a></li><li><a href="/mpx/new/guide/ts.html" class="sidebar-link">Typescript支持</a></li><li><a href="/mpx/new/guide/i18n.html" class="sidebar-link">国际化i18n</a></li><li><a href="/mpx/new/guide/progressive.html" class="active sidebar-link">渐进接入</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/mpx/new/guide/progressive.html#原生自定义组件支持" class="sidebar-link">原生自定义组件支持</a></li><li class="sidebar-sub-header"><a href="/mpx/new/guide/progressive.html#原生page支持" class="sidebar-link">原生page支持</a></li><li class="sidebar-sub-header"><a href="/mpx/new/guide/progressive.html#导出原生" class="sidebar-link">导出原生</a></li></ul></li><li><a href="/mpx/new/guide/understanding.html" class="sidebar-link">mpx运行机制</a></li><li><a href="/mpx/new/guide/resource.html" class="sidebar-link">图像资源处理</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="渐进接入"><a href="#渐进接入" class="header-anchor">#</a> 渐进接入</h1> <p>可参考此demo：<a href="https://github.com/didi/mpx/tree/master/examples/mpx-progressive" target="_blank" rel="noopener noreferrer">mpx渐进接入demo<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>mpx并不一定要求用户一定要一次性用上框架的所有东西。</p> <p>若是 <strong>已有项目</strong> 期望接入mpx，<strong><code>不需要对原有代码做全局重写</code></strong>。</p> <p>可以保持原有代码不变，新的组件、页面期望使用mpx的某些特性才引入mpx。</p> <p>甚至我们允许用户用mpx框架编写新的页面/组件再局部导出相应的页面/组件反用到现有的小程序项目中。见<a href="#%E5%AF%BC%E5%87%BA%E5%8E%9F%E7%94%9F">导出原生</a>一节。（当然还是建议大家优先考虑老项目渐进改为mpx，而不是这种反过来的模式）</p> <h2 id="原生自定义组件支持"><a href="#原生自定义组件支持" class="header-anchor">#</a> 原生自定义组件支持</h2> <p>有些时候，我们需要在<code>mpx</code>工程中使用原生小程序组件:</p> <ul><li>通过<code>npm</code>引用安装第三包</li> <li>将第三方包源码拷贝到本地<code>src</code>目录下</li></ul> <blockquote><p>注：mpx并不限制第三方包的格式。开发者可以自己参考小程序官方的<a href="https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/trdparty.html" target="_blank" rel="noopener noreferrer">开发第三方自定义组件<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></blockquote> <h3 id="原理"><a href="#原理" class="header-anchor">#</a> 原理</h3> <p>根据<code>unsingComponents</code>中设定的路径，<code>mpx</code>会去查找包的入口js文件。然后提取入口文件所在的<strong>目录</strong>中的<code>js</code> <code>json</code> <code>wxss</code> <code>wxml</code>进行编译</p> <p>编译带来的好处是，常规的拷贝操作，会造成组件内部的依赖缺失，以及冗余代码被打包。而执行了编译，使得<code>mpx</code>可以精确的收集依赖，这表现在：</p> <ul><li><code>js</code>文件中的依赖也会被打包，没有被加载的依赖库不会打包，减小体积</li> <li><code>json</code>文件的<code>usingComponents</code>会被解析，因此原生组件内部可以再引用其他原生组件，甚至是mpx组件</li> <li><code>wxss</code>中引用外部样式</li> <li><code>wxml</code>中的图片资源会被打包</li></ul> <blockquote><p>例如使用第三方组件库时，很多组件可能并未使用，如果按照组件库官方给出的使用方式，其实会将整个组件库放进你的项目。<br>
+而采用mpx这种方式则只会引入你使用了的组件，所以如果你喜欢vant的按钮，iview的输入框，ColorUI的布局，欢迎尝试mpx。<br>
+（本段内容具有时效性，未来微信可能会有优化，毕竟一开始微信连npm都不支持）</p></blockquote> <h3 id="例子"><a href="#例子" class="header-anchor">#</a> 例子</h3> <p><strong>文件目录</strong></p> <div class="language- extra-class"><pre class="language-text"><code>node_modules
+|-- npm-a-wx-component // npm安装
+|   --package.json
+|   --src
+|     --index.js
+|     --index.json
+|     --index.wxss
+|     --index.wxml
+|-- npm-b-wx-component // npm安装
+|   --package.json
+|   --src
+|     --index.js
+|     --index.json
+|     --index.wxss
+|     --index.wxml
+component
+│-- container.mpx 
+│-- com-a.mpx 
+|-- src-wx-component // 手动拷贝
+|  --index.js
+|  --index.json
+|  --index.wxss
+|  --index.wxml
+
+</code></pre></div><p><strong>container.mpx</strong></p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- mpx组件 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>com-a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>com-a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- npm安装的原生组件 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>npm-a-wx-component</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>npm-a-wx-component</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- 手动拷贝到工程的原生组件 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>src-wx-component</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>src-wx-component</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>application/json<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token string">&quot;usingComponents&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;com-a&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./com-a&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;npm-a-wx-component&quot;</span><span class="token operator">:</span> <span class="token string">&quot;npm-a-wx-component&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;src-wx-component&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./src-wx-component&quot;</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>node_modules/npm-a-wx-component/src/index.wxml</strong></p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>view</span><span class="token punctuation">&gt;</span></span>this is a native component<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- 原生组件内部使用原生组件 --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>npm-b-wx-component</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>npm-b-wx-component</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>view</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>node_modules/npm-a-wx-component/src/index.json</strong></p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;usingComponents&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;npm-b-wx-component&quot;</span><span class="token operator">:</span> <span class="token string">&quot;npm-b-wx-component&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="原生page支持"><a href="#原生page支持" class="header-anchor">#</a> 原生page支持</h2> <p>原生自定义组件的支持已经基本能保证第三方UI库和mpx的完美结合，但如果是用户存在已经开发好的小程序，在后续的迭代中发现了mpx想使用，就需要用户手工将4个文件变成mpx文件，这不够友好。</p> <p>于是我们提供了对原生页面的支持，允许项目中存在原生小程序文件（wxml,js,json,wxss）和mpx文件，两者可以混合使用，通过webpack的构建将两者完美混合在一起生成最终的dist。</p> <p>使用方式和组件相似。</p> <h2 id="导出原生"><a href="#导出原生" class="header-anchor">#</a> 导出原生</h2> <p>通过导出原生能力，你可以将一个mpx项目融回到原生项目中。有两种做法：一是局部导出部分页面/组件，二是完整导出一个mpx项目。</p> <h3 id="导出部分页面-组件"><a href="#导出部分页面-组件" class="header-anchor">#</a> 导出部分页面/组件</h3> <p>使用mpx开发的页面/组件也可以局部导出为纯粹的普通的原生小程序页面/组件，整合到已有的原生小程序中。</p> <p>仅需修改webpack config中entry一项，将app改为对应的页面/组件即可。</p> <p>请参考下面的例子，<code>注意resolve时候最后的query不可以省略，一定要按正确的类型声明这是一个组件or页面。</code></p> <p>例子：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// </span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token function">merge</span><span class="token punctuation">(</span>baseWebpackConfig<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'main-compile'</span><span class="token punctuation">,</span>
+  <span class="token comment">// entry point of our application</span>
+  entry<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 此处以mpx脚手架生成的项目为例</span>
+    
+    <span class="token comment">// before</span>
+    <span class="token comment">// app: resolveSrc('app.mpx')</span>
+    
+    <span class="token comment">// after</span>
+    <span class="token string">'pages/dindex'</span><span class="token operator">:</span> <span class="token function">resolveSrc</span><span class="token punctuation">(</span><span class="token string">'./pages/index.mpx?page'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token string">'components/dlist'</span><span class="token operator">:</span> <span class="token function">resolveSrc</span><span class="token punctuation">(</span><span class="token string">'./components/list.mpx?component'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>拷贝dist里所有文件到原生微信小程序项目根目录即可正常工作。</p> <h3 id="完整导出"><a href="#完整导出" class="header-anchor">#</a> 完整导出</h3> <p>我们也可以使用mpx完成一整个项目的开发，这个项目可能包含多个页面，这些页面将合作完成某一项完整的功能，一般可能是公共需求，比如登录/用户中心等公共模块。</p> <p>如果接入方也是Mpx框架开发的项目，那么皆大欢喜，会非常easy。但若对方是原生开发的，这时我们就希望能将整个项目完整导出成原生，并让接入方顺利使用。</p> <p>其实观察下mpx项目的打包结构，结构是非常简单的，页面/组件都很规矩地放在对应文件夹里的，所以删掉app.json/app.js/app.wxss/project.config.json几个文件后直接整个拷贝即可。</p> <p>所以完整导出整个项目的做法可以是这样：</p> <ol><li><p>确认页面路径不要冲突，一般这种公共模块项目，路径上就不要占据<code>/pages/index/index</code>，页面路径Mpx是不会修改的，所以定一个<code>/pages/{模块名}/{页面名}</code>就好。</p></li> <li><p>app.*的内容都要删掉的，所以全局样式都应该写在独立的文件中（wxss），全局配置有什么特殊的要告知接入方（json），因为App.js会被舍弃，所以入口js要抽出来(js)。</p></li> <li><p>如果有要导出的入口文件，需要给output增加配置：</p></li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// webpack.conf</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  entry<span class="token operator">:</span> <span class="token punctuation">{</span>
+    app<span class="token operator">:</span> <span class="token function">resolveSrc</span><span class="token punctuation">(</span><span class="token string">'app.mpx'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    index<span class="token operator">:</span> <span class="token function">resolveSrc</span><span class="token punctuation">(</span><span class="token string">'index.js'</span><span class="token punctuation">)</span> <span class="token comment">// 导出的入口文件，若没有可不写</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  output<span class="token operator">:</span> <span class="token punctuation">{</span>
+    libraryTarget<span class="token operator">:</span> <span class="token string">'commonjs2'</span><span class="token punctuation">,</span>
+    libraryExport<span class="token operator">:</span> <span class="token string">'default'</span> <span class="token comment">// 若export default导出需要写这个,module.exports可省略</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// ... 略</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="4"><li>整个复制进接入方的项目里，注册对应的页面，然后就可以正常使用了！</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/mpx/new/guide/i18n.html" class="prev">
+        国际化i18n
+      </a></span> <span class="next"><a href="/mpx/new/guide/understanding.html">
+        mpx运行机制
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/mpx/new/assets/js/app.e2810a86.js" defer></script><script src="/mpx/new/assets/js/2.53062a66.js" defer></script><script src="/mpx/new/assets/js/45.a547e3c1.js" defer></script>
+  </body>
+</html>
